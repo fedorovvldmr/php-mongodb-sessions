@@ -1,0 +1,9 @@
+{
+    "name": "fedorovvldmr/php-mongodb-sessions",
+    "description": "Reading / writing php sessions in MongoDB",
+    "type": "project",
+    "license": "GPL",
+    "require": {
+	    "mongodb/mongodb": "^1.1"
+    }
+}
