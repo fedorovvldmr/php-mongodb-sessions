@@ -1,5 +1,6 @@
 {
     "name": "fedorovvldmr/php-mongodb-sessions",
+    "version": "1.0.0",
     "description": "Reading / writing php sessions in MongoDB",
     "type": "project",
     "license": "GPL",
