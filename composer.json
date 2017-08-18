@@ -30,6 +30,7 @@
 		"mongodb/mongodb": "^1.1"
 	},
 	"autoload": {
+		"psr-4": { "FedorovVldmr\\": "." },
 		"files": [
 			"MongoDBSession.php"
 		]

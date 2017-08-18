@@ -1,5 +1,7 @@
 <?php
 
+namespace FedorovVldmr;
+
 class MongoDBSession
 {
 	private static $instance;
