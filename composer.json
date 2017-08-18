@@ -1,12 +1,39 @@
 {
-    "name": "fedorovvldmr/php-mongodb-sessions",
-    "version": "1.0.0",
-    "description": "Reading / writing php sessions in MongoDB",
-    "type": "project",
-    "license": "GPL",
-    "require": {
-	    "mongodb/mongodb": "^1.1"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+	"name": "fedorovvldmr/php-mongodb-sessions",
+	"version": "1.0.0",
+	"description": "Reading / writing php sessions in MongoDB",
+	"keywords": [
+		"php",
+		"mongo",
+		"mongodb",
+		"session",
+		"sessions"
+	],
+	"type": "library",
+	"license": "GPLv3",
+	"authors": [
+		{
+			"name": "Fedorov Vladimir",
+			"email": "fedorov.vldmr@gmail.com",
+			"homepage": "http://github.com/fedorovvldmr",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/fedorovvldmr/php-mongodb-sessions"
+		}
+	],
+	"require": {
+		"php": ">=5.5",
+		"mongodb/mongodb": "^1.1"
+	},
+	"autoload": {
+		"files": [
+			"MongoDBSession.php"
+		]
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
 }
