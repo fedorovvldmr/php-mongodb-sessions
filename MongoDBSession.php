@@ -114,8 +114,6 @@ class MongoDBSession
 	
 	public function write($session_id, $data)
 	{
-		dump($data, 'data write');
-		
 		if($data === '')
 		{
 			return false;
